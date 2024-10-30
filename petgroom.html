@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JASP@W</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background-color: #8233c5;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .services-section {
+            background-color: #e8f5e9;
+            padding: 50px 0;
+        }
+
+        .services-section h2,
+        .why-choose-us h2 {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .service-card {
+            position: relative;
+            padding: 20px;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        .service-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: #28a745;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+
+        .service-badge.new {
+            background-color: #17a2b8;
+        }
+
+        .service-badge.featured {
+            background-color: #ffc107;
+        }
+
+        .why-choose-us {
+            background-color: #28a745;
+            color: white;
+            padding: 50px 0;
+        }
+
+        .why-choose-us .card {
+            border: none;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            color: #000;
+        }
+
+        footer {
+            background-color: #8233c5;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Pet Grooming Services at JASP@W</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1>Welcome to Pet Grooming Services</h1>
+        <p>Providing top-notch grooming services to keep your furry friends happy and healthy.</p>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="service-badge new">New</div>
+                        <img src="C:\Users\jiya1\OneDrive\Desktop\veternity\New folder\a-dog-is-standing-next-to-a-variety-of-grooming-items-vector.jpg" class="card-img-top" alt="Pet Hair Care">
+                        <div class="card-body">
+                            <h5 class="card-title">Pet Hair Care</h5>
+                            <p class="card-text">Our hair care services include bathing, hair trimming, and styling to
+                                keep your pet's coat healthy and beautiful.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="service-badge popular">Popular</div>
+ <img src="C:\Users\jiya1\OneDrive\Desktop\veternity\New folder\girl-with-cat-and-cosmetics-element-illustration-graphic-design-element-illustration-graphic-design-free-vector.jpg" class="card-img-top" alt="Other Facilities">
+                        <div class="card-body">
+                            <h5 class="card-title">Pet Body-care</h5>
+                            <p class="card-text">Explore our additional services such as spa treatments, flea treatments,
+                                and more to pamper your pet.</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card">
+                        <div class="service-badge featured">Featured</div><img src="C:\Users\jiya1\OneDrive\Desktop\veternity\New folder\veterinarian-hospital-concept-free-vector.jpg" class="card-img-top" alt="Pet Body Care">
+                        <div class="card-body">
+                            <h5 class="card-title">Other Facilities</h5>
+                            <p class="card-text">We offer a range of body care services including nail trimming, ear
+                                cleaning, and dental care to ensure your pet's overall well-being.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Choose Us Section -->
+    <div class="why-choose-us">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-paw"></i> Experienced Staff</h5>
+                            <p class="card-text">Our team of professional groomers has years of experience in providing
+                                top-notch grooming services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-heart"></i> Loving Care</h5>
+                            <p class="card-text">We treat every pet with love and care, ensuring they are comfortable and
+                                happy during their grooming session.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-star"></i> Quality Service</h5>
+                            <p class="card-text">We use only the best products and techniques to ensure your pet looks
+                                and feels their best.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pet Grooming Services by JASP@W. All rights reserved.</p>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
